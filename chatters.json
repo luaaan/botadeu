@@ -1,0 +1,43 @@
+{
+  "_links": {},
+  "chatter_count": 30,
+  "chatters": {
+    "broadcaster": ["lluan__"],
+    "vips": [
+      "bixinhogordo",
+      "drielpastel",
+      "guilhermelads",
+      "illyaow",
+      "kawanpls",
+      "listarium",
+      "pepsi_cpx",
+      "playergams"
+    ],
+    "moderators": [
+      "abwaee",
+      "alanquenaoeobida",
+      "beyxo_",
+      "bobotinho",
+      "fossabot",
+      "isassw",
+      "kians_",
+      "kuraihikari_",
+      "luulbot",
+      "menheraball",
+      "mr_chuw",
+      "nightbot",
+      "nuvemsheep",
+      "paulom1lgr4u",
+      "raulziiiin",
+      "streamelements",
+      "streamlabs",
+      "supibot",
+      "taynahberribe",
+      "viiicc_"
+    ],
+    "staff": [],
+    "admins": [],
+    "global_mods": [],
+    "viewers": ["dragonzzin"]
+  }
+}
