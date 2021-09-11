@@ -32,21 +32,7 @@ const onMessageHandler = (channel, userstate, message, self) => {
     client.join(canal);
   }
   if (comando.includes("&massping")) {
-    // var site = `http://tmi.twitch.tv/group/user/${channel}/chatters`;
-    // (async () => {
-    //   const res = await got(site).json();
-    // const chatters = []
-    //   .concat(res.chatters.vips)
-    //   .concat(res.chatters.moderators)
-    //   .concat(res.chatters.broadcaster)
-    //   .concat(res.chatters.viewers);
-
-    //   console.log(chatters);
-    // })();
     const mensagem = message.replace("&massping", "").trim();
-    // for (let i = 0; i < totalChatters.length; i++) {
-    //   console.log(`${totalChatters[i]} ${mensagem}`);
-    // }
     chatters.map((nome) => client.say(channel, `${nome} ${mensagem}`));
   }
   if (comando.includes("tchau botadeu")) {
