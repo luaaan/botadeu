@@ -11,7 +11,7 @@ const chatters = []
 const opts = {
   identity: {
     username: "botadeu",
-    password: "oauth:7366aqf1tl53rnrvopgqppk69u2kt3",
+    password: "",
   },
   channels: ["lluan__", "viiicc_"],
 };
